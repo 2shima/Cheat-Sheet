@@ -44,4 +44,35 @@
             </tbody>
         </table>
     </section>
+    <section>
+        <h2>Selector Specificity</h2>
+        <h3>(in order of increasing specificity)</h3>
+        <table>
+            <thead>
+                <th>Selector</th>
+                <th>Syntax</th>
+            </thead>
+            <tr>
+                <td>Universal</td>
+                <td><span class="code">*</span></td>
+            </tr>
+            <tr>
+                <td>Element</td>
+                <td><span class="code">element</span></td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td><span class="code">.class</span></td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td><span class="code">#id</span></td>
+            </tr>
+        </table>
+        <h3>Additional Notes</h3>
+        <ul>
+            <li>Descendants can be selected by separating selector names with a space, e.g. <span class="code">element .class { }</span></li>
+            <li>The same rule can be applied to multiple selectors by separating their names with commas, e.g. <span class="code">.class, .class, .class { }</span></li>
+        </ul>
+    </section>
 </body>
