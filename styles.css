@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+}
+
+h2 {
+    font-family: Calibri;
+    color: darkgreen;
+}
+
+table {
+    border: 3px solid green;
+    font-family: Arial;
+    margin: 0 auto;
+    width: 400px;
+}
+
+thead {
+    background-color: lightgreen;    
+}
+
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: left;
+}
+
+td {
+    border-top: 1px solid green;
+}
+
+.code {
+    font-family: monospace;
+}
