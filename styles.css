@@ -38,3 +38,15 @@ td {
 .code {
     font-family: monospace;
 }
+
+h3 {
+    font-family: Tahoma;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    font-family: "Trebuchet MS";
+}
